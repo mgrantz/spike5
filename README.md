@@ -72,7 +72,7 @@ The following examples will assume:
 The threshold $T$ could be updated as:
 
 ```math
-T_n+1 = T_n * (1 + R) ^ (1 + k)
+T_{n+1} = T_n \times (1 + R) ^ {(1 + k)}
 ```
 
 # Integration Time
@@ -80,5 +80,5 @@ T_n+1 = T_n * (1 + R) ^ (1 + k)
 The integration time $I$ could be updated as:
 
 ```math
-I_n+1 = I_n * (1 + R)
+I_{n+1} = I_n \times (1 + R)
 ```
